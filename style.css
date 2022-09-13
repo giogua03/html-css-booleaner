@@ -1,6 +1,27 @@
-header{
+body{
+    margin:"0";
+    padding: "0";
+}
+.header-page{
    background-color: rgb(0, 132, 255);
    position: relative;
    height: 80px ;
-   img
+   background-image: url('img/pattern.png');
+   background-size: 270px
+}
+.logo{
+    width: 180px;
+}
+.table-header{
+    background-color:  blue;
+}
+.tbody1{
+    background-color: aqua;
+    text-align:left;
+}
+.tbody2{
+    text-align:left;
+}
+table{
+    border-collapse: collapse;
 }
